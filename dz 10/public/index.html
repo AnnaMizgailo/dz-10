@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your stats</title>
+    <script defer src = "index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="personal-info">
+            <h1>Personal data:</h1>
+            <input type="text" id = "name" placeholder="Name:">
+            <input type="text" id = "age" placeholder="Age:">
+            <input type="text" id = "email" placeholder="Email:">
+            <input type="text" id = "phone" placeholder="Phone number:">
+        </div>
+        <div class="personal-statistics">
+            <h1>Personal statistics:</h1>
+            <input type="text" id = "marks" placeholder="Marks:">
+            <input type="text" id = "gems" placeholder="Gems:">
+            <input type="text" id = "coins" placeholder="Coins:">
+            <input type="text" id = "attendance" placeholder="Attendance:">
+        </div>
+        <div class="group-statistics">
+            <h1>The best student...</h1>
+            <h3>based on average mark:</h3>
+            <input type="label" id ="avgMark" value="Anna">
+            <h3>based on gems:</h3>
+            <input type="label" id ="gemsCount" value="Anna">
+            <h3>based on coins:</h3>
+            <input type="label" id ="coinsCount" value="Anna">
+        </div>
+    </div>
+    <button id = "createStudentButton" onclick="createStudent()">Create new student</button>
+    <button id = "saveStudentButton" onclick="saveStudent()">Save new student</button>
+</body>
+</html>
